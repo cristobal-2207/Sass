@@ -1,0 +1,17 @@
+/* Font Family */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+$font-family-base: 'Ubuntu', sans-serif;
+
+/* Color Theme */
+$fucsia: #cf649a;
+$black-light: #343a40;
+$theme-colors: (
+  "fucsia": $fucsia,
+  "black-light": $black-light
+) !default;
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+img.card-img-top{
+  padding: 20px;
+}
